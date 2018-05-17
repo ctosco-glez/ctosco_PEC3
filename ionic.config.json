@@ -1,0 +1,8 @@
+{
+  "name": "ctoscoApp",
+  "app_id": "495e3b52",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
