@@ -1,0 +1,19 @@
+.tabs .tabbar {
+	background-color: #ccd9ff;
+}
+.tabs-md .tab-button {
+  color: white !important;
+  font-weight: bold;
+ }
+
+ .tabs-md .tab-button[aria-selected=true] {
+   color: #191966 !important;
+
+   .tab-button-icon {
+ 	color: #191966;
+ }
+ }
+
+ .tabs-md .tab-button-icon {
+ 	color: #ebebfa;
+ }

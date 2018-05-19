@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { AlertController } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
@@ -7,8 +7,17 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: AlertController) {
 
   }
 
+
+  findFriend() {
+    let alert = this.navCtrl.create({
+      title: 'Nuevo amigo???',
+      subTitle: 'Acabas de enviar una solicitud de amistad',
+      buttons: ['OK']
+    });
+    alert.present();
+  }
 }

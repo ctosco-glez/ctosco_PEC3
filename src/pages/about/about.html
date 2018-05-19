@@ -8,4 +8,69 @@
 
 <ion-content padding>
 
+<ion-list>
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="../../assets/imgs/img_perfil.jpg">
+    </ion-avatar>
+    <h2>AnitsirC</h2>
+    <h3>Mi otro yo</h3>
+    <p>...</p>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="../../assets/imgs/logo.png">
+    </ion-avatar>
+    <h2>Devon</h2>
+    <h3>Hermano menor</h3>
+    <p>No sé que haces con...</p>
+  </ion-item>
+
+</ion-list>
+
+
+  <!-- new friend -->
+<ion-grid>
+  <ion-row>
+    <ion-col col-12>
+      Añadir nuevo amigo
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-4>
+      <ion-label stacked>Nombre</ion-label>
+    </ion-col>
+
+     <ion-col col-8>
+      <ion-item>
+      	<ion-input type="text"></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-4>
+      <ion-label stacked>Teléfono</ion-label>
+    </ion-col>
+
+     <ion-col col-8>
+     	<ion-item>
+      		<ion-input type="tel"></ion-input>
+      	</ion-item>
+    </ion-col>
+  </ion-row>
+
+   <ion-row>
+    <ion-col col-4>
+      <button ion-button color="primary" block (click)="findFriend()">Añadir amigo</button>
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
+
+
+
+
 </ion-content>
